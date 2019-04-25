@@ -1,0 +1,18 @@
+{
+  "test": {
+    "driver": "pg",
+    "host": "localhost",
+    "port": 5432,
+    "database": "node_showcase_test",
+    "user": "postgres"
+  },
+  "dev": {
+    "driver": "pg",
+    "host": "localhost",
+    "port": 5432,
+    "database": "node_showcase",
+    "user": "postgres"
+  }
+}
+
+

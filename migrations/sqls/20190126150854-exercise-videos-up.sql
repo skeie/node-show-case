@@ -1,0 +1,12 @@
+ALTER SEQUENCE exercises_id_seq RESTART WITH 100;
+ALTER TABLE videos ALTER COLUMN male_video_uri DROP not null;
+INSERT INTO exercises (name) VALUES ('Band Supinated Curls');
+INSERT INTO exercises (name) VALUES ('Barbell Chest Press');
+INSERT INTO exercises (name) VALUES ('Barbell Overhead Press');
+INSERT INTO exercises (name) VALUES ('Barbell Reverse Curl');
+INSERT INTO exercises (name) VALUES ('Cable Bicep Curls');
+INSERT INTO exercises (name) VALUES ('Cable Lat Pulldowns');
+INSERT INTO exercises (name) VALUES ('Dumbbell Flat Chest Press');
+INSERT INTO exercises (name) VALUES ('Dumbbell Overhead Press');
+INSERT INTO exercises (name) VALUES ('Dumbbell Supinated Curl');
+INSERT INTO exercises (name) VALUES ('Kneeling band pulldown');
